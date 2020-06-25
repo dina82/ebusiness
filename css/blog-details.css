@@ -1,0 +1,130 @@
+#discription_blog_content #send_reply form p,
+#discription_blog_content #blog_details_right_side .caption h3{
+    text-transform: capitalize
+}
+#discription_blog_content #comments h3,
+#discription_blog_content #send_reply h3,
+#discription_blog_content #send_reply form button{
+    text-transform: uppercase
+}
+#discription_blog_content #blog_details_right_side #detail_img img{
+    width: 100%
+}
+#discription_blog_content #blog_details_right_side ul li{
+    display: inline-block
+}
+#discription_blog_content #blog_details_right_side ul li i{
+    padding: 0 10px
+}
+a ,a:hover{text-decoration: none}
+#discription_blog_content #blog_details_right_side ul {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc
+}
+#discription_blog_content #blog_details_right_side ul li a,
+#discription_blog_content #send_reply form button{
+    color: #555;
+    transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+    -o-transition: all ease .4s;
+    -sm-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+}
+#discription_blog_content #blog_details_right_side ul li a:hover{
+    color: #3ec1d5
+}
+#discription_blog_content #blog_details_right_side ul li a:not(:last-of-type)::after{
+    content: ',';
+    font-style: 'fontAwesome';
+}
+#discription_blog_content #blog_details_right_side .caption h3{
+    font-size: 22px;
+    color: #363636;
+    margin-bottom: 20px;
+}
+#discription_blog_content #blog_details_right_side .caption #datails_paragraph{
+    padding: 15px 0
+}
+#discription_blog_content #blog_details_right_side .caption #datails_paragraph p{
+    line-height: 22px
+}
+#discription_blog_content #blog_details_right_side .caption #datails_paragraph p#second_paragraph{
+    padding: 20px;
+    margin: 10px;
+    border-left: 5px solid #3ec1d5;
+    font-size: 18px;
+    color: #666;
+    margin: 15px 0 15px 30px ;
+    font-style: italic;
+}
+
+/*comments*/
+#discription_blog_content #comments #comments_content ul li{
+    display: flex;
+    display: -webkit-flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 0 0 30px 50px
+}
+#discription_blog_content #comments h3,
+#discription_blog_content #send_reply h3{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #363636
+}
+
+#discription_blog_content #comments #comments_content{
+    padding: 10px 0
+}
+#discription_blog_content #comments #comments_content ul li .author_comment{
+    margin: 0 0 0 40px;
+    padding: 5px;
+    font-size: 12px;
+    
+}
+#discription_blog_content #comments #comments_content ul li .author_comment p:nth-child(2){
+    color: #999
+}
+#discription_blog_content #comments #comments_content ul li .author_comment p:nth-child(1){
+    color:#42414f
+}
+#discription_blog_content #comments #comments_content ul li .author_comment p:nth-child(1) span:nth-child(1){
+    color: #000;
+    padding-right: 5px
+
+}
+#discription_blog_content #comments #comments_content ul li:nth-child(2){
+    margin: 0 0 30px 0;
+}
+/*send replay*/
+#discription_blog_content #send_reply h3{
+    margin-bottom: 20px
+}
+#discription_blog_content #send_reply p{
+    font-size: 12px
+}
+#discription_blog_content #send_reply form input{
+    height: 32px;
+}
+#discription_blog_content #send_reply form textarea{
+    height: 130px;
+}
+#discription_blog_content #send_reply form input,
+#discription_blog_content #send_reply form textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 15px
+}
+#discription_blog_content #send_reply form button{
+    font-weight: bold;
+    font-size: 12px;
+    background: none;
+    border: 1px solid #3ec1d5;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+#discription_blog_content #send_reply form button:hover{
+    background: #3ec1d5;
+    color: #fff;
+}

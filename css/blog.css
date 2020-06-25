@@ -1,0 +1,157 @@
+a,a:hover{text-decoration: none}
+#blog_slide #blog_header_content h1,
+#blog_slide #blog_header_content h3,
+#discription_blog_content #blog_left_side #category ul li a,
+#discription_blog_content #blog_left_side #archive #archive_date ul li a,
+#discription_blog_content #blog_left_side #popular_tag #popular_button ul li a{
+    text-transform: capitalize
+}
+#discription_blog_content #blog_left_side #recent_post h4,
+#discription_blog_content #blog_left_side #category h4,
+#discription_blog_content #blog_left_side #recent_post .recent_posts_content,
+#discription_blog_content #blog_left_side #category ul li:not(:last-of-type),
+#discription_blog_content #blog_left_side #archive h4,
+#discription_blog_content #blog_left_side #archive #archive_date ul li:not(:last-of-type),
+#discription_blog_content #blog_left_side #popular_tag h4{
+    border-bottom: 1px solid #ccc
+}
+#blog_slide{
+    position: relative;
+    background-image: url(../images/slider/slider1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;  
+    text-align: center
+}
+#blog_slide #blog_header_content,
+#discription_blog_content #blog_left_side #popular_tag #popular_button ul li:hover a,
+.pagination .active{
+    color: #fff;
+}
+#blog_slide #blog_header_content{
+    position: relative;
+    z-index: 3;
+    padding: 180px 60px
+}
+#blog_slide #blog_header_content h1{font-size: 48px}
+#blog_slide #blog_header_content h3{
+    font-size: 38px
+}
+/*discription_blog_content*/
+#blog_left_side{position: relative;}
+#discription_blog_content{
+    padding: 50px 0;
+    position: relative
+}
+#discription_blog_content #blog_left_side form input{
+    height: 40px;
+    border-radius: 0;
+    padding-left: 15px
+}
+#discription_blog_content #blog_left_side form i{
+    position: absolute;
+    right: 20px;
+    top: 0;
+    line-height: 40px;
+    font-size: 20px
+}
+#discription_blog_content #blog_left_side #recent_post,
+#discription_blog_content #blog_left_side #category,
+#discription_blog_content #blog_left_side #archive ,
+#discription_blog_content #blog_left_side #popular_tag{
+    background: #f5f5f5;
+    padding-bottom: 20px;
+    margin-bottom: 30px
+}
+#discription_blog_content #blog_left_side #recent_post h4,
+#discription_blog_content #blog_left_side #category h4,
+#discription_blog_content #blog_left_side #archive h4,
+#discription_blog_content #blog_left_side #popular_tag h4{
+    text-transform: uppercase;
+    color: #555;
+    letter-spacing: 1px;
+    padding: 15px;
+    font-size: 17px;
+    margin-bottom: 0;
+    padding-top: 15px
+}
+#discription_blog_content #blog_left_side #recent_post .recent_posts_content{    
+    padding: 15px;
+}
+#discription_blog_content #blog_left_side #recnt_form{
+    margin-bottom: 30px
+}
+#discription_blog_content #blog_left_side #recent_post .recent_posts_content .recent_img{ 
+    width: 35%;
+    display: table-cell;    
+}
+#discription_blog_content #blog_left_side #recent_post .recent_posts_content .recent_img img{
+   max-width: 100%;
+   height: auto
+}
+#discription_blog_content #blog_left_side #recent_post .recent_posts_content .recent_content{
+    padding-left: 10px;
+    display: table-cell;
+    vertical-align: top
+}
+#discription_blog_content #blog_left_side #recent_post .recent_posts_content .recent_content a,
+#discription_blog_content #blog_left_side #category ul li a,
+#discription_blog_content #blog_left_side #recent_post .recent_posts_content .recent_content a,
+#discription_blog_content #blog_left_side #category ul li a,
+#discription_blog_content #blog_left_side #archive #archive_date ul li a{
+    color: #444
+}
+#discription_blog_content #blog_left_side #recent_post .recent_posts_content .recent_content a,
+#discription_blog_content #blog_left_side #category ul li a,
+#discription_blog_content #blog_left_side #archive #archive_date ul li a,
+#discription_blog_content #blog_left_side #popular_tag #popular_button ul li{
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -sm-transition: all ease .5s
+}
+#discription_blog_content #blog_left_side #recent_post .recent_posts_content .recent_content a:hover,
+#discription_blog_content #blog_left_side #category ul li:hover a,
+#discription_blog_content #blog_left_side #archive #archive_date ul li:hover a{
+    color: #3ec1d5;
+}
+/*category*/
+#discription_blog_content #blog_left_side #category ul li,
+#discription_blog_content #blog_left_side #archive #archive_date ul li {
+    padding: 10px 
+}
+
+
+#discription_blog_content #blog_left_side #popular_tag #popular_button ul li{
+    border: 1px solid #555;
+    border-radius: 25px;
+    display: inline-block;
+    height: 30px;
+    margin: 4px
+}
+#discription_blog_content #blog_left_side #popular_tag #popular_button ul li:hover,
+.pagination li a.active{
+    background: #3ec1d5;
+    border: 1px solid #3ec1d5
+}
+#discription_blog_content #blog_left_side #popular_tag{padding-bottom: 0}
+#discription_blog_content #blog_left_side #popular_tag #popular_button{padding: 20px 10px }
+#discription_blog_content #blog_left_side #popular_tag #popular_button ul li a{
+    padding: 3px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#555;
+    line-height: 30px
+}
+
+/*right side*/
+#discription_blog_content #blog_right_side .rightside_content{
+    margin-bottom: 30px
+}
+@media (max-width:768px){
+    #blog_slide #blog_header_content h1{font-size: 20px}
+    #blog_slide #blog_header_content h3{
+        font-size: 17px
+    }
+}
